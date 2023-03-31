@@ -1,0 +1,36 @@
+.footer{
+    &__quicklinks{
+      gap: 5rem;
+      ul li{
+        &:first-child{
+          margin-bottom: 1rem;
+          font-weight: bold;
+        }
+      }
+    }
+    &__btn a{
+      width: 100%;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  }
+  .border-bottom{
+    border-bottom: 1px solid  $clr-light;
+    padding-bottom: 1px;
+    margin-bottom: 3rem;
+  }
+  .header__icons ul{
+    gap: 20px;
+    color: $clr-base;
+    :hover{
+    color: $clr-primary;
+    }
+    @include mediaQuery(){
+      gap: 10px;
+    p{
+      font-size: 1rem;
+    }  
+  }
+
+}
+  

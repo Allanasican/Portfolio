@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="./dist/css/main.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+    
+
+    <section class="bannerFull">
+
+        <div class="container">
+
+          <header class="header">
+
+            <div class="header__wrapper d--flex justify--between align--center">
+
+              <div class="header__logo">
+                <img src="./img/Logo.png">
+              </div>
+  
+              <nav class="nav">
+                <ul class="d--flex">
+                  <li><a href="index.html" id="active">Home</a></li>
+                  <li><a href="#">Objectives</a></li>
+                  <li><a href="#">Skills</a></li>
+                  <li><a href="#">Education</a></li>
+                </ul>
+              </nav>
+
+              <div class="toggle__menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+            </div>
+            
+          </header>
+
+        </section>
+<!--------Objectives--->  
+  <section class="objectives bg--base">
+    <div class="container">
+      <div class="objectives__wrapper d--flex">
+        <div class="objtives__content ">
+        <h1 class="text--primary">SKILLS</h1>
+        <p class="text--justify mt--2 ">I would like to utilize my current skills and experience as website
+            developer and learn more about our industry. Moreover, i would
+            like to work with other professionals to improve my skills as a
+            future in which will allow me to further contribute in the field.</p>
+        <a class="btn bg--light mt--2" href="#">LEARN MORE</a>
+        <ul class="d--flex mt--2">
+            <li><i class="fa-brands fa-square-facebook fa-2xl"></i></li>
+            <li> <i class="fa-brands fa-facebook-messenger fa-2xl"></i></li>
+            <li> <i class="fa-brands fa-tiktok fa-2xl"></i></li>
+            <li> <i class="fa-solid fa-envelope fa-2xl"></i></i></li>
+           
+          </ul>
+      </div>
+        <div class="skills__type">
+          <img src="./img/objectives.png">
+    </div>
+    </div>
+    </div>
+    </section>
+<!----------footer-->
+
+<footer class="footer bg--dark text--light  py--3">
+  
+  <div class="container">
+
+    <div class="footer__wrapper text--center">
+
+      <div class="header__logo">
+              
+        <h2 class="te">FEEL FREE TO CONTACT ME</h2>
+        <P class="mt--1">Check out my background education and contact information</P>
+      </div>
+
+
+
+    <div class="footer__quicklinks">
+
+
+        <div>
+          <a class="btn bg--light mt--2" href="#">CONTACT</a> <br>
+          
+        </div>
+
+</footer>
+
+
+
+<footer class="footer bg--light text--light  py--3">
+  
+  <div class="container">
+    <p class="border-bottom"></p>
+    <div class="footer__wrapper d--flex justify--between">
+
+      <div class="header__icons">
+        <ul class="d--flex">
+          <p class="text--dark">Follow us:</p>
+          <li><i class="fa-brands fa-square-facebook fa-2xl"></i></li>
+          <li> <i class="fa-brands fa-youtube fa-2xl"></i></li>
+          <li> <i class="fa-brands fa-instagram fa-2xl"></i></li>
+          <li> <i class="fa-brands fa-facebook-messenger fa-2xl"></i></li>
+        </ul>
+       
+      </div>
+
+
+
+    <div class="footer__icons text--dark  ">
+      <p >ⒸCreative Portfolio Design</p>
+        <div>
+  
+        </div>
+        </div>
+  
+</footer>
+
+
+
+<script>
+
+
+const nav = document.querySelector(".nav");
+const toggle__menu = document.querySelector(".toggle__menu");
+
+toggle__menu.addEventListener('click',() =>{
+        toggle__menu.classList.toggle("open");
+        nav.classList.toggle("open");
+});
+
+
+
+
+
+
+</script>
+
+  </body>
+</html>

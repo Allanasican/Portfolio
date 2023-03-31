@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="./dist/css/main.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+    
+
+    <section class="bannerFull">
+
+        <div class="container">
+
+          <header class="header">
+
+            <div class="header__wrapper d--flex justify--between align--center">
+
+              <div class="header__logo">
+                <img src="./img/Logo.png">
+              </div>
+  
+              <nav class="nav">
+                <ul class="d--flex">
+                  <li><a href="#" id="active">Home</a></li>
+                  <li><a href="Objectives.html">Objectives</a></li>
+                  <li><a href="#">Skills</a></li>
+                  <li><a href="#">Education</a></li>
+                </ul>
+              </nav>
+
+              <div class="toggle__menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+            </div>
+            
+          </header>
+
+        </section>
+
+
+
+
+
+    
+    <section class="services">
+      <div class="container">
+        <div class="services__wrapper">
+         <div class="services__item">
+          <h2 class="text--dark  py--3"><span>I'M </span><br><span>ALLAN ASICAN</span><br>WEB DEVELOPER</h2>
+          <a class="btn bg--light" href="#">LEARN MORE</a>
+        </div>
+          <div class="services__content">
+            <img src="./img/banner.png">
+      </div>
+      </div>
+      </div>
+    </section>
+
+
+
+  <!-----Objectives-------->
+
+  <section id="objectives" class="objectives bg--dark">
+    <div class="container">
+      <div class="objectives__wrapper d--flex ">
+        <img src="./img/board.png">
+        <div class="services__type">
+      <h1 class="text--primary">OBJECTIVES</h1>
+      <br class="text--justify ">Lorem ipsum dolor sit amet consectetur.Aliquam nibh ullamcorper purus eget maecenas ultricies dui morbi. Arcu vitae congue purus ut ut duis vestibulum. Vestibulum adipiscing iaculis commodo vel nunc tortor id condimentum mauris. Tellus auctor adipiscing interdum venenatis bibendum eleifend. Elementum dignissim sit eget morbi risus volutpat consequat tellus orci
+      </p>
+      <a class="btn bg--dark bg--transparent mt--2" href="#">LEARN MORE</a>
+    </div>
+    </div>
+    </div>
+    </section>
+<!--------Skills--->  
+  <section class="skills bg--base">
+    <div class="container">
+      <div class="skills__wrapper d--flex">
+        <div class="skills__content ">
+        <h1 class="text--primary">SKILLS</h1>
+        <p class="text--justify mt--2 ">Lorem ipsum dolor sit amet consectetur.posuere quam magna risus sed enim commodo interdum sollicitudin. </p>
+        <a class="btn bg--light mt--2" href="#">LEARN MORE</a>
+      </div>
+        <div class="skills__type">
+          <img src="./img/pencil.png">
+    </div>
+    </div>
+    </div>
+    </section>
+<!----------footer-->
+
+<footer class="footer bg--dark text--light  py--3">
+  
+  <div class="container">
+
+    <div class="footer__wrapper text--center">
+
+      <div class="header__logo">
+              
+        <h2 class="te">FEEL FREE TO CONTACT ME</h2>
+        <P class="mt--1">Check out my background education and contact information</P>
+      </div>
+
+
+
+    <div class="footer__quicklinks">
+
+
+        <div>
+          <a class="btn bg--light mt--2" href="#">CONTACT</a> <br>
+          
+        </div>
+
+</footer>
+
+
+
+<footer class="footer bg--light text--light  py--3">
+  
+  <div class="container">
+    <p class="border-bottom"></p>
+    <div class="footer__wrapper d--flex justify--between">
+
+      <div class="header__icons">
+        <ul class="d--flex">
+          <p class="text--dark">Follow us:</p>
+          <li><i class="fa-brands fa-square-facebook fa-2xl"></i></li>
+          <li> <i class="fa-brands fa-tiktok fa-2xl"></i></li>
+          <li> <i class="fa-brands fa-instagram fa-2xl"></i></li>
+          <li> <i class="fa-brands fa-facebook-messenger fa-2xl"></i></li>
+        </ul>
+       
+      </div>
+
+
+
+    <div class="footer__icons text--dark  ">
+      <p >ⒸCreative Portfolio Design</p>
+        <div>
+  
+        </div>
+        </div>
+  
+</footer>
+
+
+
+<script>
+
+
+const nav = document.querySelector(".nav");
+const toggle__menu = document.querySelector(".toggle__menu");
+
+toggle__menu.addEventListener('click',() =>{
+        toggle__menu.classList.toggle("open");
+        nav.classList.toggle("open");
+});
+
+
+
+
+
+
+</script>
+
+  </body>
+</html>
