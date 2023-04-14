@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="./dist/css/main.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+    
+
+    <section class="bannerFull">
+
+        <div class="container">
+
+          <header class="header">
+
+            <div class="header__wrapper d--flex justify--between align--center">
+
+              <div class="header__logo">
+                <img src="./img/Logo.png">
+              </div>
+  
+              <nav class="nav">
+                <ul class="d--flex">
+                  <li><a href="index.html" id="active">Home</a></li>
+                  <li><a href="Objectives.html">Objectives</a></li>
+                  <li><a href="#">Skills</a></li>
+                  <li><a href="edu.html">Education</a></li>
+                </ul>
+              </nav>
+
+              <div class="toggle__menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+            </div>
+            
+          </header>
+
+        </section>
+<!---skills-->
+
+<section class="skills bg--light">
+    <div class="container">
+        <h1 class="py--3 text--primary text--center">Skills</h1>
+        <div class="skills__wrapper text--center">
+                
+
+                    <div class="card bg--light">
+                        <img src="./img/rectangle.png" alt="">
+                        <h2 class="text--dark py--1">Webdesign</h2>
+                    </div>
+                    <div class="card bg--light">
+                        <img src="./img/rectangle 2.png" alt="">
+                        <h2 class="text--dark ">Willing to adapt new<br> Skills and Knowledge</h2>
+                    </div>
+                    <div class="card bg--light">
+                        <img src="./img/rectangle 3.png" alt="">
+                        <h2 class="text--dark py--1 ">Active listening</h2>
+                    </div>
+                    <div class="card bg--light">
+                        <img src="./img/rectangle 4.png" alt="">
+                        <h2 class="text--dark py--1">Front-end Coding</h2>
+                    </div>
+                    
+                    <div class="card bg--light">
+                        <img src="./img/rectangle 5.png" alt="">
+                        <h2 class="text--dark py--1">Design thinking</h2>
+                    </div>
+                    <div class="card bg--light">
+                        <img src="./img/rectangle 6.png" alt="">
+                        <h2 class="text--dark py--1">Adaptability</h2>
+                    </div>
+                    <div class="card bg--light">
+                        <img src="./img/rectangle 7.png" alt="">
+                        <h2 class=" text--dark">Ability to work<br> under pressure</h2>
+                    </div>
+                    <div class="card bg--light">
+                        <img src="./img/rectangle 8.png" alt="">
+                        <h2 class="text--dark">Execellent<br> Communication skills</h2>
+                    </div>
+              
+              
+
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+  <!----footer-->      
+<footer class="footer bg--base text--light  py--3">
+  
+    <div class="container">
+      <p class="border-bottom"></p>
+      <div class="footer__wrapper d--flex justify--between">
+  
+        <div class="header__icons">
+          <ul class="d--flex">
+            <p class="text--light">Follow us:</p>
+            <li><i class="fa-brands fa-square-facebook fa-2xl text--light"></i></li>
+            <li> <i class="fa-brands fa-youtube fa-2xl text--light"></i></li>
+            <li> <i class="fa-brands fa-instagram fa-2xl text--light"></i></li>
+            <li> <i class="fa-brands fa-facebook-messenger fa-2xl text--light"></i></li>
+          </ul>
+         
+        </div>
+  
+  
+  
+      <div class="footer__icons text--light ">
+        <p >ⒸCreative Portfolio Design</p>
+          <div>
+    
+          </div>
+          </div>
+    
+  </footer>
+  
+  
+  
+  <script>
+  
+  
+  const nav = document.querySelector(".nav");
+  const toggle__menu = document.querySelector(".toggle__menu");
+  
+  toggle__menu.addEventListener('click',() =>{
+          toggle__menu.classList.toggle("open");
+          nav.classList.toggle("open");
+  });
+  
+  
+  
+  
+  
+  
+  </script>
+  
+    </body>
+  </html>

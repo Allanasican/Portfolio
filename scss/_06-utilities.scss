@@ -90,3 +90,9 @@ $alignments: (
     margin-top: $i + rem;
   }
   }
+  @for $i from 1 through 10 {
+    .gap--#{$i}{
+      gap: $i + rem;
+    }
+  }
+  

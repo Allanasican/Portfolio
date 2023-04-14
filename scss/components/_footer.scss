@@ -1,4 +1,6 @@
 .footer{
+   bottom: 0;
+   width: 100%;
     &__quicklinks{
       gap: 5rem;
       ul li{
@@ -21,9 +23,11 @@
   }
   .header__icons ul{
     gap: 20px;
-    color: $clr-base;
+    color: $clr-light;
+    text-shadow: 1px 1px 1px #000, 
+    3px 3px 5px $clr-base;
     :hover{
-    color: $clr-primary;
+    color: $clr-dark;
     }
     @include mediaQuery(){
       gap: 10px;

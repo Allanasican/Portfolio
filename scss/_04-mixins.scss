@@ -18,6 +18,8 @@
   border-radius: 15px;
   display: inline-block;
   background: $bg;
+  box-shadow: 1px 1px 1px #000, 
+  3px 3px 5px $clr-base; 
   &:hover {
     color: $clr-light;
     background: darken($bg, 76);
