@@ -180,6 +180,7 @@ document.addEventListener('keydown',e=>{if(lb.hidden)return;if(e.key==='Escape')
   {keys:['education','degree','study','school'],title:'Education',text:'Allan earned a Bachelor of Science in Information Technology, specializing in Web and Mobile Development, from Laguna State Polytechnic University.'},
   {keys:['contact','email','reach','hire','location'],title:'Contact Allan',text:'You can contact Allan at Allan dot asican 2702 at gmail dot com. He is based in Laguna, Philippines, and is open to opportunities in production art, digital design, and web-related work.'},
   {keys:['github','code','repository'],title:'GitHub',text:'You can view Allan’s GitHub profile at github dot com slash Allanasican.'}
+  {keys:['github','code','repository'],title:'GitHub',text:'You can view Allan’s.'}
  ];
  function respond(q){const s=q.toLowerCase();const item=facts.find(f=>f.keys.some(k=>s.includes(k)));const result=item||{title:'Portfolio guide',text:'You can ask me about Allan’s background, skills, professional experience, education, portfolio projects, GitHub, or contact details.'};status.textContent=result.title;answer.textContent=result.text;if('speechSynthesis'in window){speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(result.text);u.rate=.96;u.pitch=1; speechSynthesis.speak(u)} }
  document.querySelectorAll('[data-voice]').forEach(b=>b.addEventListener('click',()=>respond(b.dataset.voice)));
